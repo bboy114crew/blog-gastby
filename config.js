@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://bboy114crew.github.io',
   pathPrefix: '/blog',
   title: 'Blog by nguythang',
   subtitle: 'My world',
@@ -30,14 +30,14 @@ module.exports = {
     bio: 'SE, Lover',
     contacts: {
       email: '',
-      facebook: '#',
+      facebook: 'https://www.facebook.com/nguythang312',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'https://twitter.com/nguythang1',
+      github: 'https://github.com/bboy114crew',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/nguythang312/',
+      instagram: 'https://www.instagram.com/nguythang/',
       line: '',
       gitlab: '',
       weibo: ''
