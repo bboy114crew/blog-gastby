@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by nguythang]]></title><description><![CDATA[My world]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Oct 2019 18:39:52 GMT</lastBuildDate><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by nguythang]]></title><description><![CDATA[My world]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Oct 2019 18:42:19 GMT</lastBuildDate><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#the-first-transition&quot;&gt;The first transition&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#the-digital-age&quot;&gt;The digital age&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#loss-of-humanity-through-transitions&quot;&gt;Loss of humanity through transitions&lt;/a&gt;&lt;/li&gt;
@@ -16,7 +16,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg&quot;
+    href=&quot;/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -27,22 +27,22 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/01472/42-line-bible.webp 240w,
-/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/222bd/42-line-bible.webp 480w,
-/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/0cbce/42-line-bible.webp 800w&quot;
+          srcset=&quot;/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/01472/42-line-bible.webp 240w,
+/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/222bd/42-line-bible.webp 480w,
+/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/0cbce/42-line-bible.webp 800w&quot;
           sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/3bc27/42-line-bible.jpg 240w,
-/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/98431/42-line-bible.jpg 480w,
-/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg 800w&quot;
+          srcset=&quot;/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/3bc27/42-line-bible.jpg 240w,
+/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/98431/42-line-bible.jpg 480w,
+/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg 800w&quot;
           sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg&quot;
+          src=&quot;/blog/static/6d93cbc4956a854d4c4369f0e281e7f3/a296c/42-line-bible.jpg&quot;
           alt=&quot;42-line-bible.jpg&quot;
           title=&quot;42-line-bible.jpg&quot;
           loading=&quot;lazy&quot;
@@ -81,7 +81,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/313cc/type-through-time.jpg&quot;
+    href=&quot;/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/313cc/type-through-time.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -92,24 +92,24 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/01472/type-through-time.webp 240w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/222bd/type-through-time.webp 480w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/620b9/type-through-time.webp 960w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/6db13/type-through-time.webp 1250w&quot;
+          srcset=&quot;/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/01472/type-through-time.webp 240w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/222bd/type-through-time.webp 480w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/620b9/type-through-time.webp 960w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/6db13/type-through-time.webp 1250w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/3bc27/type-through-time.jpg 240w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/98431/type-through-time.jpg 480w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/b3ee8/type-through-time.jpg 960w,
-/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/313cc/type-through-time.jpg 1250w&quot;
+          srcset=&quot;/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/3bc27/type-through-time.jpg 240w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/98431/type-through-time.jpg 480w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/b3ee8/type-through-time.jpg 960w,
+/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/313cc/type-through-time.jpg 1250w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/eaa988471fd2b61a1d4d313d0d9a5d23/b3ee8/type-through-time.jpg&quot;
+          src=&quot;/blog/static/eaa988471fd2b61a1d4d313d0d9a5d23/b3ee8/type-through-time.jpg&quot;
           alt=&quot;type-through-time.jpg&quot;
           title=&quot;type-through-time.jpg&quot;
           loading=&quot;lazy&quot;
@@ -167,7 +167,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/ee10b/movable-type.jpg&quot;
+    href=&quot;/blog/static/bd0272909c25e194b94dc89edc338274/ee10b/movable-type.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -178,28 +178,28 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/01472/movable-type.webp 240w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/222bd/movable-type.webp 480w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/620b9/movable-type.webp 960w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/28063/movable-type.webp 1440w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/34ef4/movable-type.webp 1920w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/839a3/movable-type.webp 2288w&quot;
+          srcset=&quot;/blog/static/bd0272909c25e194b94dc89edc338274/01472/movable-type.webp 240w,
+/blog/static/bd0272909c25e194b94dc89edc338274/222bd/movable-type.webp 480w,
+/blog/static/bd0272909c25e194b94dc89edc338274/620b9/movable-type.webp 960w,
+/blog/static/bd0272909c25e194b94dc89edc338274/28063/movable-type.webp 1440w,
+/blog/static/bd0272909c25e194b94dc89edc338274/34ef4/movable-type.webp 1920w,
+/blog/static/bd0272909c25e194b94dc89edc338274/839a3/movable-type.webp 2288w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/3bc27/movable-type.jpg 240w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/98431/movable-type.jpg 480w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/b3ee8/movable-type.jpg 960w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/b97fe/movable-type.jpg 1440w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/fb329/movable-type.jpg 1920w,
-/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/ee10b/movable-type.jpg 2288w&quot;
+          srcset=&quot;/blog/static/bd0272909c25e194b94dc89edc338274/3bc27/movable-type.jpg 240w,
+/blog/static/bd0272909c25e194b94dc89edc338274/98431/movable-type.jpg 480w,
+/blog/static/bd0272909c25e194b94dc89edc338274/b3ee8/movable-type.jpg 960w,
+/blog/static/bd0272909c25e194b94dc89edc338274/b97fe/movable-type.jpg 1440w,
+/blog/static/bd0272909c25e194b94dc89edc338274/fb329/movable-type.jpg 1920w,
+/blog/static/bd0272909c25e194b94dc89edc338274/ee10b/movable-type.jpg 2288w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/bd0272909c25e194b94dc89edc338274/b3ee8/movable-type.jpg&quot;
+          src=&quot;/blog/static/bd0272909c25e194b94dc89edc338274/b3ee8/movable-type.jpg&quot;
           alt=&quot;Movable metal type, and composing stick, descended from Gutenberg&amp;#39;s press. Photo by Willi Heidelbach. Licensed under CC BY 2.5&quot;
           title=&quot;Movable metal type, and composing stick, descended from Gutenberg&amp;#39;s press. Photo by Willi Heidelbach. Licensed under CC BY 2.5&quot;
           loading=&quot;lazy&quot;
@@ -231,7 +231,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/98235/image-3.jpg&quot;
+    href=&quot;/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/98235/image-3.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -242,26 +242,26 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/01472/image-3.webp 240w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/222bd/image-3.webp 480w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/620b9/image-3.webp 960w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/28063/image-3.webp 1440w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/44134/image-3.webp 1800w&quot;
+          srcset=&quot;/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/01472/image-3.webp 240w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/222bd/image-3.webp 480w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/620b9/image-3.webp 960w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/28063/image-3.webp 1440w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/44134/image-3.webp 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/3bc27/image-3.jpg 240w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/98431/image-3.jpg 480w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/b3ee8/image-3.jpg 960w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/b97fe/image-3.jpg 1440w,
-/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/98235/image-3.jpg 1800w&quot;
+          srcset=&quot;/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/3bc27/image-3.jpg 240w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/98431/image-3.jpg 480w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/b3ee8/image-3.jpg 960w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/b97fe/image-3.jpg 1440w,
+/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/98235/image-3.jpg 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/732bbf5c4fdcc63ac39e10f8f82a3435/b3ee8/image-3.jpg&quot;
+          src=&quot;/blog/static/732bbf5c4fdcc63ac39e10f8f82a3435/b3ee8/image-3.jpg&quot;
           alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           title=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           loading=&quot;lazy&quot;
@@ -295,14 +295,14 @@
   &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 80px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/nguythang.github.io/71ba9417da76c390c80ad2f49c9c227d/cpu.svg&quot; alt=&quot;Test SVG&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/71ba9417da76c390c80ad2f49c9c227d/cpu.svg&quot; alt=&quot;Test SVG&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/98235/image-2.jpg&quot;
+    href=&quot;/blog/static/0249a8579cfb4088acaf23fcac068444/98235/image-2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -313,26 +313,26 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/01472/image-2.webp 240w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/222bd/image-2.webp 480w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/620b9/image-2.webp 960w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/28063/image-2.webp 1440w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/44134/image-2.webp 1800w&quot;
+          srcset=&quot;/blog/static/0249a8579cfb4088acaf23fcac068444/01472/image-2.webp 240w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/222bd/image-2.webp 480w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/620b9/image-2.webp 960w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/28063/image-2.webp 1440w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/44134/image-2.webp 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/3bc27/image-2.jpg 240w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/98431/image-2.jpg 480w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/b3ee8/image-2.jpg 960w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/b97fe/image-2.jpg 1440w,
-/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/98235/image-2.jpg 1800w&quot;
+          srcset=&quot;/blog/static/0249a8579cfb4088acaf23fcac068444/3bc27/image-2.jpg 240w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/98431/image-2.jpg 480w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/b3ee8/image-2.jpg 960w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/b97fe/image-2.jpg 1440w,
+/blog/static/0249a8579cfb4088acaf23fcac068444/98235/image-2.jpg 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/0249a8579cfb4088acaf23fcac068444/b3ee8/image-2.jpg&quot;
+          src=&quot;/blog/static/0249a8579cfb4088acaf23fcac068444/b3ee8/image-2.jpg&quot;
           alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           title=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           loading=&quot;lazy&quot;
@@ -349,7 +349,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/98235/image-0.jpg&quot;
+    href=&quot;/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/98235/image-0.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -360,26 +360,26 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/01472/image-0.webp 240w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/222bd/image-0.webp 480w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/620b9/image-0.webp 960w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/28063/image-0.webp 1440w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/44134/image-0.webp 1800w&quot;
+          srcset=&quot;/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/01472/image-0.webp 240w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/222bd/image-0.webp 480w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/620b9/image-0.webp 960w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/28063/image-0.webp 1440w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/44134/image-0.webp 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/3bc27/image-0.jpg 240w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/98431/image-0.jpg 480w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/b3ee8/image-0.jpg 960w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/b97fe/image-0.jpg 1440w,
-/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/98235/image-0.jpg 1800w&quot;
+          srcset=&quot;/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/3bc27/image-0.jpg 240w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/98431/image-0.jpg 480w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/b3ee8/image-0.jpg 960w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/b97fe/image-0.jpg 1440w,
+/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/98235/image-0.jpg 1800w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/nguythang.github.io/static/b3e5e61f7fb8888ba76b502242e27bd0/b3ee8/image-0.jpg&quot;
+          src=&quot;/blog/static/b3e5e61f7fb8888ba76b502242e27bd0/b3ee8/image-0.jpg&quot;
           alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           title=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
           loading=&quot;lazy&quot;
