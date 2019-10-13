@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  pathPrefix: '/github bboy114crew',
+  pathPrefix: '/nguythang.github.io',
   title: 'Blog by nguythang',
   subtitle: 'My world',
   copyright: '© All rights reserved.',
