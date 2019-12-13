@@ -16,7 +16,7 @@ type Props = {
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-
+  console.log(data, pageContext);
   const {
     currentPage,
     hasNextPage,
