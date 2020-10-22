@@ -23,7 +23,7 @@ Trong bài viết này , tôi muốn cho bạn thấy quá trình phát triển 
 
 Nếu bạn đang học phát triển web thì rất có khả năng bạn sẽ bắt đầu với một trang web được xây dựng bởi HTML và CSS. Một trang web không đươc trang trí([CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)) và không có bất cứ logic nào cần xử lý ([Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)) thì nó đơn giản chỉ là [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
-![wd101-1.png](/media/wd101-1.jpg)
+![wd101-1.jpg](/media/wd101-1.jpg)
 
 
 [Web development 101](https://www.robinwieruch.de/web-applications)
