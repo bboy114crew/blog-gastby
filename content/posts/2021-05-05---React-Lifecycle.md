@@ -1,5 +1,5 @@
 ---
-title: Promise vs Callback
+title: React Lifecycle
 date: "2021-04-21"
 template: "post"
 draft: false
@@ -7,7 +7,7 @@ slug: "/posts/promise-callbacl/"
 category: "React"
 tags:
   - "Note"
-description: "Lifecycle of a React app"
+description: "React "
 ---
 
 ```
