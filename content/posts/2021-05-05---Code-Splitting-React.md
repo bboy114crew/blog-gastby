@@ -7,7 +7,7 @@ slug: "/posts/react-code-splitting/"
 category: "React"
 tags:
   - "Note"
-description: "React Explained 101."
+description: "React Performance 101."
 ---
 
 Code splitting acts on the principle that loading less code will speed up your
