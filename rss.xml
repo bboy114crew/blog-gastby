@@ -1,1 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nguythang's Blog]]></title><description><![CDATA[My world]]></description><link>https://bboy114crew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 21 Apr 2021 14:59:49 GMT</lastBuildDate><item><title><![CDATA[Promise vs Callback]]></title><description><![CDATA[Javascript Explained 101.]]></description><link>https://bboy114crew.github.io/posts/promise-callbacl/</link><guid isPermaLink="false">https://bboy114crew.github.io/posts/promise-callbacl/</guid><pubDate>Wed, 21 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s kind of the control is in the opposite of directions. We’re giving away our function, versus we’re receiving a value that has not come to be just yet.&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nguythang's Blog]]></title><description><![CDATA[My world]]></description><link>https://bboy114crew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 May 2021 14:53:19 GMT</lastBuildDate><item><title><![CDATA[Code splitting - React]]></title><description><![CDATA[React Explained 101.]]></description><link>https://bboy114crew.github.io/posts/promise-callbacl/</link><guid isPermaLink="false">https://bboy114crew.github.io/posts/promise-callbacl/</guid><pubDate>Wed, 21 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Code splitting acts on the principle that loading less code will speed up your
+app. Say for example that we’re building a complex dashboard application that
+includes the venerable d3 library for graphing data. Your users start
+complaining because it takes too long to load the login screen.&lt;/p&gt;
+&lt;p&gt;So, assuming that performance problems can be resolved by less code, how can we
+solve this one? Well, do we really &lt;em&gt;need&lt;/em&gt; to have that code for the chart when
+the user loads the login screen? Nope! We could load that on-demand.&lt;/p&gt;
+&lt;p&gt;Luckily for us, there’s a built-in way to do this with JavaScript standards.
+It’s called a dynamic import and the syntax looks like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/some-module.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token parameter&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// do stuff with the module&apos;s exports&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token parameter&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// there was some error loading the module...&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📜 Learn more about dynamic imports in the browser in
+&lt;a href=&quot;https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Super Simple Start to ESModules in the browser&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To take this further, React has built-in support for loading modules as React
+components. The module must have a React component as the default export, and
+you have to use the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;React.Suspense /&amp;gt;&lt;/code&gt; component to render a fallback value
+while the user waits for the module to be loaded.&lt;/p&gt;
+&lt;p&gt;One great way to analyze your app to determine the need/benefit of code
+splitting for a certain feature/page/interaction, is to use
+&lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/coverage&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the “Coverage” feature of the developer tools&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;1-eager-loading&quot;&gt;&lt;a href=&quot;#1-eager-loading&quot; aria-label=&quot;1 eager loading permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Eager loading&lt;/h3&gt;
+&lt;p&gt;So if they &lt;code class=&quot;language-text&quot;&gt;mouseOver&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;focus&lt;/code&gt; the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;label&amp;gt;&lt;/code&gt; for the something, we should kick off a
+dynamic import &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; Hint: it doesn’t matter how many times you call
+&lt;code class=&quot;language-text&quot;&gt;import(&amp;#39;./path-to-module&amp;#39;)&lt;/code&gt;, webpack will only actually load the module once.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2-webpack-magic-comments&quot;&gt;&lt;a href=&quot;#2-webpack-magic-comments&quot; aria-label=&quot;2 webpack magic comments permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Webpack magic comments&lt;/h3&gt;
+&lt;p&gt;If you’re using webpack to bundle your application, then you can use webpack
+&lt;a href=&quot;https://webpack.js.org/api/module-methods/#magic-comments&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;magic comments&lt;/a&gt; to
+have webpack instruct the browser to prefetch dynamic imports:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/* webpackPrefetch: true */&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./some-module.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When webpack sees this comment, it adds this to your document’s &lt;code class=&quot;language-text&quot;&gt;head&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link rel&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;prefetch&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;script&quot;&lt;/span&gt; href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/static/js/1.chunk.js&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;With this, the browser will automatically load this JavaScript file into the
+browser cache so it’s ready ahead of time.&lt;/p&gt;
+&lt;p&gt;The change itself is minimal, but pull up the DevTools to make sure it’s loading
+properly (you’ll need to uncheck the “Disable cache” button to observe any
+changes).&lt;/p&gt;
+&lt;h2 id=&quot;notes&quot;&gt;&lt;a href=&quot;#notes&quot; aria-label=&quot;notes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Another thing which we won’t cover in this workshop, but you should look into
+later, is using the &lt;code class=&quot;language-text&quot;&gt;webpackChunkName&lt;/code&gt; magic comment which will allow webpack to
+place common modules in the same chunk. This is good for components which you
+want loaded together in the same chunk (to reduce multiple requests for multiple
+modules which will likely be needed together).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Lifecycle]]></title><description><![CDATA[React ]]></description><link>https://bboy114crew.github.io/posts/promise-callbacl/</link><guid isPermaLink="false">https://bboy114crew.github.io/posts/promise-callbacl/</guid><pubDate>Wed, 21 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;→  render → reconciliation → commit
+         ↖                   ↙
+              state change&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Let’s define a few terms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The “render” phase: create React elements React.createElement&lt;/li&gt;
+&lt;li&gt;The “reconciliation” phase: compare previous elements with the new ones&lt;/li&gt;
+&lt;li&gt;The “commit” phase: update the DOM (if needed).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;React exists in its current form (in large part) because updating the DOM is the
+slowest part of this process. By separating us from the DOM, React can perform
+the most surgically optimal updates to the DOM to speed things up for us
+big-time.&lt;/p&gt;
+&lt;p&gt;A React Component can re-render for any of the following reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Its props change&lt;/li&gt;
+&lt;li&gt;Its internal state changes&lt;/li&gt;
+&lt;li&gt;It is consuming context values which have changed&lt;/li&gt;
+&lt;li&gt;Its parent re-renders&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;React is really fast, however, &lt;em&gt;sometimes&lt;/em&gt; it can be useful to give React little
+tips about certain parts of the React tree when there’s a state update. You can
+opt-out of state updates for a part of the React tree by using one of React’s
+built-in rendering bail-out utilities: &lt;code class=&quot;language-text&quot;&gt;React.PureComponent&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;React.memo&lt;/code&gt;, or
+&lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate&lt;/code&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Promise vs Callback]]></title><description><![CDATA[Javascript Explained 101.]]></description><link>https://bboy114crew.github.io/posts/promise-callbacl/</link><guid isPermaLink="false">https://bboy114crew.github.io/posts/promise-callbacl/</guid><pubDate>Wed, 21 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s kind of the control is in the opposite of directions. We’re giving away our function, versus we’re receiving a value that has not come to be just yet.&lt;/p&gt;</content:encoded></item></channel></rss>
