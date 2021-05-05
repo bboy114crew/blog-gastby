@@ -1,9 +1,9 @@
 ---
 title: Code splitting - React
-date: "2021-04-21"
+date: "2021-05-05"
 template: "post"
 draft: false
-slug: "/posts/promise-callbacl/"
+slug: "/posts/react-code-splitting/"
 category: "React"
 tags:
   - "Note"

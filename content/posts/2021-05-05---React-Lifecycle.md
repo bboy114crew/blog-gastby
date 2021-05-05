@@ -1,13 +1,13 @@
 ---
 title: React Lifecycle
-date: "2021-04-21"
+date: "2021-05-05"
 template: "post"
 draft: false
-slug: "/posts/promise-callbacl/"
+slug: "/posts/react-lifecycle/"
 category: "React"
 tags:
   - "Note"
-description: "React "
+description: "React Explained 101."
 ---
 
 ```
