@@ -33,8 +33,7 @@ import('/some-module.js').then(
 )
 ```
 
-> 📜 Learn more about dynamic imports in the browser in
-> [Super Simple Start to ESModules in the browser](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser)
+Learn more about dynamic imports in the browser in [Super Simple Start to ESModules in the browser](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser)
 
 To take this further, React has built-in support for loading modules as React
 components. The module must have a React component as the default export, and
@@ -49,8 +48,7 @@ splitting for a certain feature/page/interaction, is to use
 So if they `mouseOver` or `focus` the `<label>` for the something, we should kick off a
 dynamic import 
 
->  Hint: it doesn't matter how many times you call
-> `import('./path-to-module')`, webpack will only actually load the module once.
+It doesn't matter how many times you call `import('./path-to-module')`, webpack will only actually load the module once.
 
 ### 2. Webpack magic comments
 If you're using webpack to bundle your application, then you can use webpack
@@ -76,8 +74,7 @@ changes).
 
 ## Notes
 
-Another thing which we won't cover in this workshop, but you should look into
-later, is using the `webpackChunkName` magic comment which will allow webpack to
+The `webpackChunkName` magic comment which will allow webpack to
 place common modules in the same chunk. This is good for components which you
 want loaded together in the same chunk (to reduce multiple requests for multiple
 modules which will likely be needed together).
