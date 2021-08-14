@@ -2,7 +2,7 @@
 title: Understanding "same-site" and "same-origin"
 date: "2021-05-13"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/same-site-same-origin/"
 category: "Security 101"
 tags:
