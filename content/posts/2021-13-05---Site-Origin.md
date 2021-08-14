@@ -4,18 +4,15 @@ date: "2021-05-13"
 template: "post"
 draft: false
 slug: "/posts/same-site-same-origin/"
-category: "Security"
+category: "Security 101"
 tags:
   - "Note"
-description: "Security 101: "same-site" and "same-origin" are frequently cited but often misunderstood terms. For example, they are mentioned in the context of page transitions, fetch() requests, cookies, opening popups, embedded resources, and iframes."
+description: "Security 101."
 ---
-
 
 ### 1. Origin
 
 "Origin" is a combination of a scheme (also known as the protocol, for example HTTP or HTTPS), hostname, and port (if specified). For example, given a URL of https://www.example.com:443/foo , the "origin" is https://www.example.com:443.
-
-
 
 ### 2. Site
 Top-level domains (TLDs) such as .com and .org are listed in the Root Zone Database. In the example above, "site" is the combination of the TLD and the part of the domain just before it. For example, given a URL of https://www.example.com:443/foo , the "site" is example.com.

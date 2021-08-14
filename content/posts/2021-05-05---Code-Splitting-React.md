@@ -18,7 +18,7 @@ Before webpack was born we have project named as [modules-webmake](https://githu
 
 [Tobias Koppers](https://twitter.com/wSokra) a.k.a founder of webpack wanted Code Splitting for modules-webmake so webpack was born. Interestingly the [Code Splitting issue](https://github.com/medikoo/modules-webmake/issues/7) is still open.
 
-
+We have some way can do with code-splitting:
 ### 1. Eager loading
 So if they `mouseOver` or `focus` the `<label>` for the something, we should kick off a
 dynamic import 
@@ -47,13 +47,13 @@ The change itself is minimal, but pull up the DevTools to make sure it's loading
 properly (you'll need to uncheck the "Disable cache" button to observe any
 changes).
 
-## FYI:
+### FYI:
 One great way to analyze your app to determine the need/benefit of code
 splitting for a certain feature/page/interaction, is to use
 [the "Coverage" feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
 
-## Notes
+### Notes
 The `webpackChunkName` magic comment which will allow webpack to
 place common modules in the same chunk. This is good for components which you
 want loaded together in the same chunk (to reduce multiple requests for multiple
@@ -62,7 +62,7 @@ modules which will likely be needed together).
 You can see more in [here](https://webpack.js.org/api/module-methods/#magic-comments).
 
 
-## Reference:
+### Reference:
 [Webpack - Code Splitting](https://webpack.js.org/guides/code-splitting) <br/>
 [Webpack - Lazy Loading](https://webpack.js.org/guides/lazy-loading/#example) <br/>
 [React - Code Splitting](https://reactjs.org/docs/code-splitting.html) <br/>
