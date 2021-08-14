@@ -20,7 +20,7 @@ Before webpack was born we have project named as [modules-webmake](https://githu
 
 ## We have some approaches to code splitting:
 ### 1. Eager loading
-Instace of we `mouseOver` or `focus` the `<label>` for the something, we should kick off a
+For instance, we `mouseOver` or `focus` the `<label>` for the something, we should kick off a
 dynamic import. As `import()` returns a promise, it can be used with async functions. Here's how it would simplify the code:
 ```javascript
 const myModlule = await import('./path-to-module')
