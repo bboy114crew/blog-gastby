@@ -25,7 +25,7 @@ dynamic import
 
 It doesn't matter how many times you call `import('./path-to-module')`, webpack will only actually load the module once.
 
-### 2. Webpack magic comments
+### 2. Prefetching modules
 If you're using webpack to bundle your application, then you can use webpack
 [magic comments](https://webpack.js.org/api/module-methods/#magic-comments) to
 have webpack instruct the browser to prefetch dynamic imports:
