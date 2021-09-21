@@ -122,11 +122,11 @@ const App = () => {
       animal: "Bird",
       breed: "Fantail",
     }),
-    React.createElement(Pet, { name: "Doink", animal: "Cat", breed: "Mix" }),
+    React.createElement(Pet, { name: "King", animal: "Cat", breed: "British Shorthair" }),
   ]);
 };
 
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
 ```
 
-Now we have a more flexible component that accepts props from its parent. Props are variables that a parent (App) passes to its children (the instances of Pet.) Now each one can be different! Now that is far more useful than it was since this Pet component can represent not just Luna, but any Pet. This is the power of React! We can make multiple, re-usable components. We can then use these components to build larger components, which in turn make up yet-larger components. This is how React apps are made!
+Now we have a more flexible component that accepts props from its parent. Props are variables that a parent (App) passes to its children (the instances of Pet.) Now each one can be different! Now that is far more useful than it was since this Pet component can represent not just Misa, but any Pet. This is the power of React! We can make multiple, re-usable components. We can then use these components to build larger components, which in turn make up yet-larger components. This is how React apps are made!
