@@ -1,6 +1,6 @@
 ---
 title: Code splitting
-date: "2021-05-05"
+date: "2020-05-05"
 template: "post"
 draft: false
 slug: "/posts/code-splitting/"

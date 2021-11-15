@@ -1,6 +1,6 @@
 ---
 title: Understanding "same-site" and "same-origin"
-date: "2021-05-13"
+date: "2020-05-13"
 template: "post"
 draft: true
 slug: "/posts/same-site-same-origin/"

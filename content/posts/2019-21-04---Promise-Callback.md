@@ -1,6 +1,6 @@
 ---
 title: Promise vs Callback
-date: "2021-04-21"
+date: "2019-04-21"
 template: "post"
 draft: false
 slug: "/posts/promise-callbacl/"
